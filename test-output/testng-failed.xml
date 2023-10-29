@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="buoi8.bai1">
+      <class name="buoi12.HomeworkSelectAndDropdown">
         <methods>
-          <include name="fillInfo"/>
-          <include name="openWebsite"/>
+          <include name="openSite"/>
           <include name="closeWebsite"/>
+          <include name="dropdownTest"/>
         </methods>
-      </class> <!-- buoi8.bai1 -->
+      </class> <!-- buoi12.HomeworkSelectAndDropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
