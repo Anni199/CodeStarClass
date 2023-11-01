@@ -1,29 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T09:03:15 ICT" name="Default suite" finished-at="2023-10-27T09:03:44 ICT" duration-ms="28864">
+  <suite started-at="2023-11-02T00:23:55 ICT" name="Suite" finished-at="2023-11-02T00:26:32 ICT" duration-ms="157300">
     <groups>
     </groups>
-    <test started-at="2023-10-27T09:03:15 ICT" name="Default test" finished-at="2023-10-27T09:03:44 ICT" duration-ms="28864">
-      <class name="buoi12.HomeworkSelectAndDropdown">
-        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi12.HomeworkSelectAndDropdown@6aba2b86]" started-at="2023-10-27T09:03:15 ICT" name="openSite" finished-at="2023-10-27T09:03:29 ICT" duration-ms="13222" status="PASS">
+    <test started-at="2023-11-02T00:23:55 ICT" name="Test" finished-at="2023-11-02T00:26:32 ICT" duration-ms="157300">
+      <class name="buoi13.Login">
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:23:55 ICT" name="openSite" finished-at="2023-11-02T00:24:05 ICT" duration-ms="10670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSite -->
-        <test-method signature="homework12()[pri:1, instance:buoi12.HomeworkSelectAndDropdown@6aba2b86]" started-at="2023-10-27T09:03:29 ICT" name="homework12" finished-at="2023-10-27T09:03:34 ICT" duration-ms="5396" status="PASS">
+        <test-method signature="loginSuccess()[pri:1, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:05 ICT" name="loginSuccess" finished-at="2023-11-02T00:24:10 ICT" duration-ms="4356" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homework12 -->
-        <test-method signature="dropdownTest()[pri:2, instance:buoi12.HomeworkSelectAndDropdown@6aba2b86]" started-at="2023-10-27T09:03:34 ICT" name="dropdownTest" finished-at="2023-10-27T09:03:44 ICT" duration-ms="9858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownTest -->
-        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi12.HomeworkSelectAndDropdown@6aba2b86]" started-at="2023-10-27T09:03:44 ICT" name="closeWebsite" finished-at="2023-10-27T09:03:44 ICT" duration-ms="316" status="PASS">
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:10 ICT" name="closeWebsite" finished-at="2023-11-02T00:24:10 ICT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebsite -->
-      </class> <!-- buoi12.HomeworkSelectAndDropdown -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:10 ICT" name="openSite" finished-at="2023-11-02T00:24:18 ICT" duration-ms="7930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="loginFailedEmail()[pri:2, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:18 ICT" name="loginFailedEmail" finished-at="2023-11-02T00:24:22 ICT" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailedEmail -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:22 ICT" name="closeWebsite" finished-at="2023-11-02T00:24:22 ICT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:22 ICT" name="openSite" finished-at="2023-11-02T00:24:30 ICT" duration-ms="7776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="loginFailedPassword()[pri:3, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:30 ICT" name="loginFailedPassword" finished-at="2023-11-02T00:24:34 ICT" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailedPassword -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:34 ICT" name="closeWebsite" finished-at="2023-11-02T00:24:34 ICT" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:34 ICT" name="openSite" finished-at="2023-11-02T00:24:42 ICT" duration-ms="8608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="loginFailedEmailAndPassword()[pri:4, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:42 ICT" name="loginFailedEmailAndPassword" finished-at="2023-11-02T00:24:46 ICT" duration-ms="3973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailedEmailAndPassword -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:46 ICT" name="closeWebsite" finished-at="2023-11-02T00:24:47 ICT" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:24:47 ICT" name="openSite" finished-at="2023-11-02T00:26:08 ICT" duration-ms="81489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="logout()[pri:5, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:26:08 ICT" name="logout" finished-at="2023-11-02T00:26:14 ICT" duration-ms="5813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:26:14 ICT" name="closeWebsite" finished-at="2023-11-02T00:26:14 ICT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method is-config="true" signature="quitWebdriver()[pri:0, instance:buoi13.Login@192d43ce]" started-at="2023-11-02T00:26:14 ICT" name="quitWebdriver" finished-at="2023-11-02T00:26:14 ICT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWebdriver -->
+      </class> <!-- buoi13.Login -->
+      <class name="buoi13.Logout">
+        <test-method is-config="true" signature="openSite()[pri:0, instance:buoi13.Logout@a514af7]" started-at="2023-11-02T00:26:14 ICT" name="openSite" finished-at="2023-11-02T00:26:24 ICT" duration-ms="9404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="loginSuccess()[pri:1, instance:buoi13.Logout@a514af7]" started-at="2023-11-02T00:26:24 ICT" name="loginSuccess" finished-at="2023-11-02T00:26:28 ICT" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method signature="logout()[pri:2, instance:buoi13.Logout@a514af7]" started-at="2023-11-02T00:26:28 ICT" name="logout" finished-at="2023-11-02T00:26:32 ICT" depends-on-methods="buoi13.Logout.loginSuccess" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quitWebdriver()[pri:0, instance:buoi13.Logout@a514af7]" started-at="2023-11-02T00:26:32 ICT" name="quitWebdriver" finished-at="2023-11-02T00:26:32 ICT" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitWebdriver -->
+      </class> <!-- buoi13.Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
