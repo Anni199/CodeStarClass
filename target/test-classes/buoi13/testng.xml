@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="2" name="Test">
     <classes>
-      <class name="buoi13.Login"/>
-      <class name="buoi13.Logout"/>
+      <class name="buoi13.AuthTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
