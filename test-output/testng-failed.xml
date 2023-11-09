@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="buoi14.LogInAndChangePassTest">
+      <class name="buoi15.TrizenDate">
         <methods>
-          <include name="quitWebdriver"/>
-          <include name="loginTest" invocation-numbers="0"/>
           <include name="openSite"/>
+          <include name="chooseDate"/>
         </methods>
-      </class> <!-- buoi14.LogInAndChangePassTest -->
+      </class> <!-- buoi15.TrizenDate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
