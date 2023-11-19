@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="buoi16.HW_ChangePass">
+      <class name="buoi17.HW_Codestar">
         <methods>
-          <include name="changePass"/>
+          <include name="switchWindowsAndClick"/>
           <include name="openSite"/>
         </methods>
-      </class> <!-- buoi16.HW_ChangePass -->
+      </class> <!-- buoi17.HW_Codestar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
