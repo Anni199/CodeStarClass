@@ -28,7 +28,13 @@
 			<version>7.8.0</version>
 			<scope>test</scope>
 		</dependency>
-
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-http-jdk-client -->
+		<dependency>
+    		<groupId>org.seleniumhq.selenium</groupId>
+    		<artifactId>selenium-http-jdk-client</artifactId>
+    		<version>4.13.0</version>
+		</dependency>
 
 	</dependencies>
 </project>

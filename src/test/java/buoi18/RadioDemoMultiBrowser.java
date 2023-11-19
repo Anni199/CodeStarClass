@@ -23,6 +23,7 @@ public class RadioDemoMultiBrowser extends CommonFunction {
 	@Parameters({"browser"})
 	void setup(String br) throws InterruptedException
 	{
+		System.setProperty("webdriver.http.factory", "jdk-http-client");
 		if(br.equals("chrome"))
 		{
 		driver=new ChromeDriver();
