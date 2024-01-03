@@ -24,9 +24,16 @@ public class Rise_Dashboard_Page {
 	@FindBy(xpath="//a[@href='https://rise.fairsketch.com/clients']")
 	WebElement btn_client;
 	
+	@FindBy(xpath="//a[@href='https://rise.fairsketch.com/projects/all_projects']")
+	WebElement btn_project;
+	
 	// Action methods
 	public void clickClient() {
 		btn_client.click();
+	}
+	
+	public void clickProject() {
+		btn_project.click();
 	}
 
 }

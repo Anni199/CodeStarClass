@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="buoi17.HW_Codestar">
+      <class name="addprojectfunction.P4">
         <methods>
-          <include name="switchWindowsAndClick"/>
           <include name="openSite"/>
+          <include name="TC8"/>
+          <include name="quitWebdriver"/>
         </methods>
-      </class> <!-- buoi17.HW_Codestar -->
+      </class> <!-- addprojectfunction.P4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
